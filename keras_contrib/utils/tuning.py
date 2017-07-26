@@ -228,6 +228,7 @@ class SearchWrapper:
             **fit_params: Additional parameters to be passed to train_on_batch.
         Returns:
             Loss of model after training on batch.
+
         """
         assert self.partial_fit_initialized, 'Partial fitting not initialized, please call start_train_partial() first'
 
