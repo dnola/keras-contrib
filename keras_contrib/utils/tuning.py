@@ -46,7 +46,6 @@ def create_grid_configurations(search_space):
     # Returns
         A list of dictionaries. Each dictionary represents a configuration of
         hyperparameters, mapping {'parameter_name':value}.
-
     """
     for k, v in search_space.items():
         if type(v) is not list:
